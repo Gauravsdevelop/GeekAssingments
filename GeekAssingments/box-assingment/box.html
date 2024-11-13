@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Layout</title>
+    <style>
+        .box {
+            border: 2px solid red;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .list-item {
+            border: 2px solid red;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        .button, .link {
+            display: inline-block;
+            border: 2px solid red;
+            padding: 5px;
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+        }
+        .parent{
+            border: 2px solid red;
+            padding: 5px;
+            margin-bottom: 5px;
+            width:50rem;
+        }
+    </style>
+</head>
+<body class=" parent">
+    <div class="box">
+        <h1>I'm a box</h1>
+    </div>
+
+    <div class="box">
+        <p>here is a box.. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod molestiae cumque dolores provident! Quo repellat odio rerum, ipsa maiores adipisci veritatis beatae, non ipsam minus dignissimos amet cupiditate nesciunt quas?</p>
+    </div>
+
+    <ul class="box">
+        <li class="list-item">this list is a box</li>
+        <li class="list-item">and all the list items in it are boxes</li>
+    </ul>
+
+    <div class="box">
+        <span class="button">even buttons</span>
+        <a href="#" class="link">links</a>
+        are boxes.
+    </div>
+</body>
+</html>
