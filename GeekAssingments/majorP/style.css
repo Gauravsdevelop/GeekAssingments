@@ -422,7 +422,15 @@
  .second-right-business-section{
      width: 50%;
  }
- 
+.second-bussiness-section {
+    margin-top: -204px;
+}
+
+.first-business-image {
+    margin-right: 68px;
+}
+
+
  /* ::::::::::::::::::::::::::::::::: TESTIMONIAL SECTION :::::::::::::::::::  */
  
  .testimonial-section{
